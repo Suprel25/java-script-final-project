@@ -4,8 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
 </head>
 <body>
-    
+    <section id="landing-page">
+        <nav class="nav container">
+            <img class="logo" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Netflix_icon.svg/500px-Netflix_icon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20220806170125" alt="">
+            <div class="action__container">
+                <select name="language" class="language">
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                </select>
+                <button class="sign-in__button">Sign In</button>
+            </div>
+        </nav>
+        <section id="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="hero__container">
+                        <h1 class="hero__title">Your next favorite story <br> starts here</h1>
+                        <h3 class="hero__subtitle">Stream movies and shows whenever you want</h3>
+                        <p class="hero__para">Ready to watch?</p>
+                        <div class="action__container">
+                            <input type="search" placeholder="Search" class="search">
+                            <button class="action__button">
+                                Search 
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="movies">
+        <div class="container">
+            <div class="movies__row row">
+                <img class="movies__img" src=https://c8.alamy.com/zooms/9/83f71a19b4ff49509d6001133de8290e/px63xy.jpg alt="">
+                <div class="learn__container">
+                    <div class="learn__title--container">
+                        <h2 class="learn__title">Movies you will love for just $8.99.</h2>
+                        <p class="learn__subtitle">Prices you'll appreciate.</p>
+                     </div>
+                    <button class="learn__button">Learn More</button>
+                </div> 
+            </div>
+        </div>
+    </section>
 </body>
 </html>
