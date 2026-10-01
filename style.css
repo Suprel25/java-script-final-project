@@ -392,6 +392,7 @@ FREQUENTLY ASKED QUESTION
     font-size: 20px;
     padding: 0 20px;
     margin-top: 2px;
+    display: none;
 }
 
 .faq__answer p {
@@ -567,3 +568,42 @@ FOOTER
         font-size: 10px;
     }
 }
+
+/*
+
+SEARCH PAGE
+
+*/
+
+.search__nav--container{
+    margin-bottom: 40px;
+}
+
+#search__body{
+    background-color: black;
+    color: white;
+}
+
+.search__results{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 20px;
+  
+}
+
+.movie-img__wrapper{
+    width: 200px;
+    margin-bottom: 100px;
+}
+
+.search__results--img{
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.type{
+    margin-bottom: 16px;
+}
+
+/*

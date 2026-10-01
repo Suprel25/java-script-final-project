@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <style>
+    <style>        
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 </style>
 <script src="https://kit.fontawesome.com/abd097e172.js" crossorigin="anonymous"></script>
+<script src="index.js" defer></script>
 </head>
 <body>
     <section id="landing-page">
@@ -30,8 +31,8 @@
                         <h3 class="hero__subtitle">Stream movies and shows whenever you want</h3>
                         <p class="hero__para">Ready to watch?</p>
                         <div class="action__container">
-                            <input type="search" placeholder="Search" class="search">
-                            <button class="action__button">
+                            <input type="search" placeholder="Search" class="search" id="search-input">
+                            <button class="action__button" id="search__button">
                                 Search 
                             </button>
                         </div>
@@ -114,7 +115,7 @@
                     <div class="faq__item">
                         <button class="faq__question">
                             What is Netflix?
-                            <span>+</span>
+                            <span class="faq__click" onclick="(openFaq(event))">+</span>
                         </button>
                         <div class="faq__answer">
                             <p>
@@ -126,7 +127,7 @@
                     <div class="faq__item">
                         <button class="faq__question">
                             How much does Netflix cost?
-                            <span>+</span>
+                            <span class="faq__click" onclick="(openFaq(event))">+</span>
                         </button>
                         <div class="faq__answer">
                             <p>
@@ -137,7 +138,7 @@
                     <div class="faq__item">
                         <button class="faq__question">
                             Where can I watch?
-                            <span>+</span>
+                            <span class="faq__click" onclick="(openFaq(event))">+</span>
                         </button>
                         <div class="faq__answer">
                             <p>
@@ -150,7 +151,7 @@
                     <div class="faq__item">
                         <button class="faq__question">
                             How do I cancel?
-                            <span>+</span>
+                            <span class="faq__click" onclick="(openFaq(event))">+</span>
                         </button>
                         <div class="faq__answer">
                             <p>
@@ -161,7 +162,7 @@
                     <div class="faq__item">
                         <button class="faq__question">
                             What can I watch on Netflix?
-                            <span>+</span>
+                            <span class="faq__click" onclick="(openFaq(event))">+</span>
                         </button>
                         <div class="faq__answer">
                             <p>
@@ -172,7 +173,7 @@
                     <div class="faq__item">
                         <button class="faq__question">
                             Is Netflix good for kids?
-                            <span>+</span>
+                            <span class="faq__click" onclick="(openFaq(event))">+</span>
                         </button>
                         <div class="faq__answer">
                             <p>
